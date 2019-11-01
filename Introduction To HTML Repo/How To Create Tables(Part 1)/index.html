@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#" >Item 1 </a></li>
+                        <li><a href="#" >Item 1 </a></li>
+                        <li><a href="#" >Item 1 </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <main>
+                    <article>
+                        <figure class="hero">
+                            <img src="https://picsum.photos/1200/440/?image=201" alt="A laptop with a mouse on a desk and a pair of glasses."/>
+                            <figcaption>
+                                <h1>Learning HTML</h1>
+                            </figcaption>
+                        </figure>
+                        <h2 style="font-size: 2em">WHAT IS HTML?</h2>
+                        <hr>
+                        <p>
+                            <b>Hypertext Markup Language (HTML)</b> is the standard markup language for creating web pages and web applications. With <i>Cascading Style Sheets (CSS)</i> and <em>JavaScript</em>, it forms a triad of <strong>cornerstone technologies</strong> for the World Wide Web.  
+                        </p>
+                        <p>
+                            Web browsers receive <q>HTML documents</q> from a web server or from local storage and render them into multimedia web pages. <a href="#">HTML describes</a> the structure of a web page semantically and originally included cues for the appearance of the document.
+                        </p>
+                        <blockquote cite="http://twitter.com">
+                            "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie
+                        </blockquote>
+                        <!-- Tables-->
+                        <table class="styled">
+                            <tr>
+                                <th colspan="3">Spanning 3 Columns</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">Table Data</td>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                            <tr>
+                                <!-- rowspan -->
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                            <tr>
+                                <!-- rowspan -->
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                        </table>
+                    </article>
+                </main>
+                <footer>
+                </footer>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
+<!-- Bonus Materials -->  
+<!-- Learn html vocab: http://apps.workflower.fi/vocabs/html/en -->
+<!-- More info about tables: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table -->
